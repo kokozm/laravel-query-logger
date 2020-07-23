@@ -2,7 +2,7 @@
     "name": "kokozm/laravel-query-logger",
     "description": "DB query logger tool",
     "type": "library",
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "kokozm",
