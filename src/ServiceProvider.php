@@ -22,7 +22,10 @@ class ServiceProvider extends BaseServiceProvider
      */
     public function register()
     {
-        //
+        $this->mergeConfigFrom(
+            __DIR__ . '/../config/laravel_query_logger.php',
+            'laravel_query_logger'
+        );
     }
     
     /**
